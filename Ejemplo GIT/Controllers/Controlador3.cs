@@ -8,6 +8,7 @@ namespace Ejemplo_GIT.Controllers
         [Route("Controllador3")]
         public IActionResult Index()
         {
+            Console.WriteLine("Hello World im Controller3");
             return View();
         }
 
